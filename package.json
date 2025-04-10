@@ -5,7 +5,9 @@
   },
 
   "scripts": {
-    "build":"npx @tailwindcss/cli -i ./style.css -o ./output.css --watch "
+ 
+    "build":"npx @tailwindcss/cli -i ./style.css -o ./output.css --watch "  ,
+     "dev":"vite"
   }
 
 }
